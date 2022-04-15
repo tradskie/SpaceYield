@@ -1,0 +1,51 @@
+/* CSS here */
+
+/* TAKEOFF MESSAGE */
+.takeoff-title{
+    margin: unset;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 10px #ffffff;
+}
+
+.takeoff-ctr{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-evenly;
+}
+
+.takeoff-inner{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.takeoff-inner span{
+    display: block;
+}
+
+.takeoff-count{
+    font-family: 'sc_font', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.6rem;
+    margin: unset;
+    text-shadow: 1px 1px 10px #ffffff;
+}
+
+.takeoff-abbreviation{
+    font-family: 'sc_font', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin: unset;
+    text-shadow: 1px 1px 10px #ffffff;
+}
+
+.takeoff-divider{
+    margin-top: 1rem;
+}
+
+.modal{
+	background:black!important;
+	max-width: 900px!important;
+		max-height: 571px;
+        	overflow-x: auto;
+}
