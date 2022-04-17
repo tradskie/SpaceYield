@@ -1,17 +1,17 @@
 :root {
-    --accent: #b8b8b8;
-    --accent-lighter: #c4c4c40a;
-    --red-accent: #AB3C2F;
+  --accent: #ff9800;
+  --accent-lighter: #c4c4c40a;
+  --red-accent: #ab3c2f;
 
-    --eclipse: #001E2B;
-    --eclipse-light: #00374E;
-    --eclipse-lighter: #002433ea;
-    --eclipse-lighter-x2: #001e2ba1;
+  --eclipse: #020d26;
+  --eclipse-light: #00374e;
+  --eclipse-lighter: #002433ea;
+  --eclipse-lighter-x2: #001e2ba1;
 
-    --neon: #A1FFFF;
-    --neon-lighter: #a1ffff91;
-    --neon-lighter-x2: #a1ffff52;
+  --neon: #a1ffff;
+  --neon-lighter: #a1ffff91;
+  --neon-lighter-x2: #a1ffff52;
 
-    --text-color: rgb(255, 255, 255);
+  --text-color: rgb(255, 255, 255);
 }
 /* GETS OVERRIDEN THROUGH JQUERY /js/change_color.js/ */

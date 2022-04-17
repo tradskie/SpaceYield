@@ -15,16 +15,16 @@ srcset="img/lady-large.png 800w, img/lady-large.png 520w, img/lady-small.png 320
 switch (focusProject) {
   case "yellow":
     favicon.attr("href", "img/favicon_yellow.ico")
-    navLogo.attr("src", "img/logo-small-yellow.png")
+    navLogo.attr("src", "img/Space-logo-Orange.svg")
     biggerLogos.each(function () {
-      $(this).attr("src", "img/logo-large-yellow.png")
+      $(this).attr("src", "img/Space-logo-Orange.svg")
     })
-    lady.attr("src", "img/lady-large-yellow.png")
+    lady.attr("src", "img/Girl.png")
     lady.attr(
       "srcset",
-      "img/lady-large-yellow.png 800w, img/lady-mid-yellow.png 520w, img/lady-small-yellow.png 320w"
+      "img/Girl.png 800w, img/lady-mid-yellow.png 520w, img/lady-small-yellow.png 320w"
     )
-    document.documentElement.style.setProperty("--accent", "#FCEE21")
+    document.documentElement.style.setProperty("--accent", "#ff9800 ")
     document.documentElement.style.setProperty("--accent-lighter", "#fced210a")
     break
   case "purple":
